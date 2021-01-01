@@ -7,7 +7,6 @@ import os
 from PIL import ImageTk,Image
 from tkinter import ttk  
 import time
-import playsound
 from tkinter.messagebox import _show 
 
 # voice: https://ttsmp3.com/
@@ -449,6 +448,7 @@ def delete():
 			user_details = file_data.split('\n')
 			pin4 = user_details[5]
 			pasw = user_details[1]
+			file.close()
 		else:
 			pass
 
