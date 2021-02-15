@@ -392,11 +392,9 @@ def acc():
 	global del_pin
 	global delnote
 	global paso
-	global captcha
 	name_del = StringVar()
 	del_pin = StringVar()
 	paso = StringVar()
-	captcha = StringVar()
 
 
 
@@ -409,7 +407,6 @@ def acc():
 
 	Label(del_screen, text="Enter the Secret pin", font=('Calibri',12)).grid(row=2,sticky=W,pady=10)
 	Label(del_screen, text="Enter the password", font=('Calibri',12)).grid(row=3,sticky=W,pady=10)
-	Label(del_screen, text="Enter the captcha", font=('Calibri',12)).grid(row=4,sticky=W,pady=10)
 
 
 
